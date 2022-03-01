@@ -1,0 +1,257 @@
+
+
+
+.accordion-item{
+    border-bottom: 1px dotted  rgb(143, 138, 138);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.accordion-link{
+    font-size: 14px;
+    font-family:"Open Sans"sans-serif;
+    color:#696b6d;
+    text-decoration: none;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.accordion-link .ion-md-remove{
+    display:none;
+}
+.answer{
+    max-height:0;
+    overflow:hidden;
+    position:relative;
+    transition:max-height 650ms;
+    padding:10px 15px;
+
+}
+
+.accordion-item:target .answer{
+    max-height:20rem;
+}
+.accordion-item:target .accordion-link .ion-md-add{
+        display:none;
+}
+.accordion-item:target .accordion-link .ion-md-remove{
+        display:block;
+}
+.rs{
+    height: 50px;
+    width: 50px;
+}
+.payimg{
+    height: 30px;
+    width: 50px;
+    margin: auto;
+}
+.payname{
+    color: black;
+}
+
+.lastbutton{
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(16,132,126);
+    border-radius: 50%;
+}
+.lastbutton:hover{
+    background-color:rgb(16,132,126) ;
+}
+.linkwallet{
+    background-color: rgb(16,132,126);
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 15%;
+    cursor: pointer;
+    
+}
+.wallettext{
+    padding-top: 12px;
+}
+.walletflex{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.walletdetail{
+    display: flex;
+    justify-content: space-between;
+}
+.imgpay{
+    width: 50px;
+}
+
+#main{
+display: flex;
+justify-content: center;
+margin: auto;
+max-width: 1336px;
+}
+#borderbottum{
+border-bottom:1px dotted grey ;
+}
+.priceflex{
+color: #696b6d;
+display: flex;
+justify-content: space-between;
+}
+#box1{
+display: flex;
+justify-content: space-between;
+background-color:rgb(242,255,248) ;
+}
+#box1img{
+margin: auto;
+height: 50px;
+}
+#section1{
+padding: 5px;
+width: 50%;
+}
+#section2{
+box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+padding: 5px;
+margin: 20px;
+width: 35%;
+}
+#totalamount{
+display: flex;
+justify-content: space-between;
+color: #696b6d;
+}
+.other{
+margin-top: 10px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+border-radius: 5px;
+}  
+h2{
+color: #696b6d;
+}
+h1{
+color: #555759;
+}
+.otherimg{
+height: 60px;
+margin: 10px;
+margin-right: 30px;
+}
+.otherlogo{
+display: flex;
+}
+footer{
+    height: auto;
+    background-color: #f4f7fb;
+}
+#footer_con1{
+    max-width: 1366px;
+    margin: auto;
+    padding: 40px 15px 0px;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+#footer_con2{
+    /* border: 1px solid blue; */
+    max-width: 1366px;
+    margin: auto;
+    padding: 0px 15px 0px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#paypart{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin-right: 20px;
+}
+#copyright{
+    /* border: 1px solid red; */
+    width: 40%;
+    text-align: end;
+}
+#paypart>h4{
+    margin-top: 0;
+}
+#paypart>div>span{
+    max-height: 30px;
+    width: 50px;
+    height: 30px;
+    margin-right: 15px
+}
+#paypart>div>span>img{
+    width: 50px;
+    height: 30px;
+}
+#copyright>p{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+#column_con{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#column_con>div{
+    /* border:1px solid blue; */
+    width:30%;
+    height: auto;
+}
+#column_con>div>div{
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
+#column_con>div>div>h4{
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 0px 0px 15px;
+}
+#column_con>div>div>a{
+    margin: 0px 0px 15px;
+    font-weight: lighter;
+    color: #4f585e;
+    display: block;
+    text-decoration: none;
+}
+#follow_con{
+    /* border:1px solid blue; */
+    width: 20%;
+}
+#follow_con>div{
+    /* border: 1px solid red; */
+    width:250px;
+    height: auto;
+}
+#follow_con>div>h4{
+    /* border:1px solid red; */
+
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 0px 0px 15px 0px;
+}
+#follow_con>div>div{
+    /* border:1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#follow_con>div>div>a{
+    color: #10847e;
+    width: 40px;
+    height: 40px;
+}
+.icons{
+    color: #10847e;
+}
