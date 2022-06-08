@@ -36,9 +36,9 @@ PharmEasy is one of India's most trusted online pharmacy & medical stores offeri
     </ul>
         <h1>Contributors</h1>
     <ul>
+        <li> <a href="https://github.com/naushadcom">@MD Naushad Ahamed</a> </li>
         <li><a href="https://github.com/ribhar">@Ritik Bhardwaj</a></li>
         <li><a href="https://github.com/murad2243">@Murad Kodalwad</a></li>
-        <li> <a href="https://github.com/naushadcom">@MD Naushad Ahamed</a> </li>
         <li><a href="https://github.com/rajeshdeoghar">@Rajesh Kumar</a></li>
         <li><a href="https://github.com/Nirmal403">@Nirmal</a></li>
         <li><a href="https://github.com/nirbhay244">@Nirbhay Kumar Singh</a></li>
